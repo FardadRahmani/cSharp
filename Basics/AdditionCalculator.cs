@@ -1,5 +1,5 @@
 // See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, Fardad!");
 
 
 //takes user input and stores it
@@ -20,10 +20,12 @@ Console.WriteLine("Enter another whole number:");
 userInput = Console.ReadLine();
 myNumber2 = int.Parse(userInput);
 
-Console.WriteLine("The sum is: " + (myNumber + myNumber2));
+//string Concatenation
+Console.WriteLine("The sum of "+ myNumber + " and " + myNumber2 + " is " + (myNumber + myNumber2));
 
 
-
+//string interpolation
+Console.WriteLine($"The sum of {myNumber} and {myNumber2} is {myNumber + myNumber2}");
 
 
 Console.ReadKey(); 
